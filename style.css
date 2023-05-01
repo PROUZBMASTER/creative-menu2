@@ -28,7 +28,7 @@
     padding: 15px 30px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: black;
     font-size: 22px;
     font-weight: bold;
     transition: 0.7s;
@@ -44,8 +44,8 @@
     opacity: 0;
     transform: scaleY(2);
     transition: 0.7s;
-    border-top: 2px solid crimson;
-    border-bottom: 2px solid crimson;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
   }
   
   .items:hover:before {
@@ -55,7 +55,7 @@
   
   .items:after {
     content: "";
-    background: crimson;
+    background: red;
     position: absolute;
     top: 0;
     left: 0;
@@ -71,6 +71,6 @@
   }
   
   .items:hover {
-    color: #fff;
+    color: white;
   }
   
